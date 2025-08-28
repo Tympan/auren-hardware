@@ -6,7 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Hearing Probe Board")
-		(rev "v0.1")
+		(date "2025-08-28")
+		(rev "v1.0")
 		(company "Flywheel Lab")
 		(comment 1 "Desiged for Creare")
 	)
@@ -921,6 +922,19 @@
 			(justify left bottom)
 		)
 		(uuid "599ac265-84ee-4042-aafc-fe11b1f89fe9")
+	)
+	(text "Hearing Probe Board\nPrototype for Auren Probe"
+		(exclude_from_sim no)
+		(at 133.604 29.21 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "a61731b7-a0dd-4f2d-835b-c135f023b6ce")
 	)
 	(text "MEMs Microphones Do Not Wash"
 		(exclude_from_sim no)
