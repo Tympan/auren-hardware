@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_08001530_5f7d5571",
+    "visible_layers": "00000000_00000000_08001530_d75df5ff",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "auren-hardware.kicad_prl",
+    "filename": "auren-probe.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
