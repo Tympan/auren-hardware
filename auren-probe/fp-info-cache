@@ -1,4 +1,4 @@
-24737478780245568
+24744511749158234
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99512,9 +99512,37 @@ Varistor VF
 2
 2
 auren-library
+HDMI_Micro-D_Molex_46765-1x01
+HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle tht
+0
+23
+20
+auren-library
+IM672D128
+
+
+0
+5
+5
+auren-library
 MountingHole_0-80_Screw
 Mounting Hole 2.1mm, no annular
 mounting hole 2.1mm no annular
+0
+0
+0
+auren-library
+TympanLOGO_6
+
+
+0
+0
+0
+auren-library
+Tympan_LOGO
+
+
 0
 0
 0
