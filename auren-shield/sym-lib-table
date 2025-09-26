@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "auren-shield")(type "KiCad")(uri "${KIPRJMOD}/library/auren-shield.kicad_sym")(options "")(descr ""))
+)

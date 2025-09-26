@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Tympan")(type "KiCad")(uri "${KIPRJMOD}/Library/Tympan.pretty")(options "")(descr ""))
+)
