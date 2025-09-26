@@ -2315,7 +2315,7 @@
 		(uuid "9e174f00-ffb4-43ba-9911-b716c3bcfc4d")
 		(at 109.3942 54.36 90)
 		(property "Reference" "MIC4"
-			(at -3.2004 -0.4114 180)
+			(at -3.1496 0.0458 180)
 			(layer "F.SilkS")
 			(uuid "19ede84d-823c-4d22-afb2-e1bd0ee7fddf")
 			(effects
