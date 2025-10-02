@@ -5,8 +5,8 @@
 	(uuid "2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b")
 	(paper "A")
 	(title_block
-		(title "Tympan EarPiece Shield")
-		(date "2019-10-8")
+		(title "Tympan Auren Shield")
+		(date "2025-10-02")
 		(rev "1")
 		(company "www.tympan.org")
 	)
@@ -390,23 +390,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 25.4 0)
+			(property "Reference" "J3"
+				(at 0 28.575 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x20"
-				(at 0 -27.94 0)
+			(property "Value" "HDMI A"
+				(at 0 26.035 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Video:HDMI_A_Molex_208658-1001_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -415,7 +415,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2086581001?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1035,7 +1035,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2917,7 +2917,7 @@
 		)
 		(uuid "4208d1ab-e392-4cc4-bacc-cec3d9374a35")
 	)
-	(text "Connect GND_SENS to via\nat USB connectors"
+	(text "Connect GND_SENS to via\nat HDMI connector"
 		(exclude_from_sim no)
 		(at 179.07 97.79 0)
 		(effects
@@ -3124,26 +3124,6 @@
 		(color 0 0 0 0)
 		(uuid "fc416dea-59db-4c37-aa55-e052dbd302b5")
 	)
-	(no_connect
-		(at 52.705 153.035)
-		(uuid "3974ad8f-0287-45eb-965f-6eb0b7288a2b")
-	)
-	(no_connect
-		(at 52.705 145.415)
-		(uuid "539bc32a-e648-49c2-b67a-66deaa961f1e")
-	)
-	(no_connect
-		(at 52.705 160.655)
-		(uuid "7b82353c-7fbe-4347-aef9-ddaf7d0a7f5f")
-	)
-	(no_connect
-		(at 52.705 130.175)
-		(uuid "9ffc8cf2-4577-478c-9a09-bf8d382635f4")
-	)
-	(no_connect
-		(at 52.705 137.795)
-		(uuid "c6b493b3-6754-49de-a7a8-719fc9c9e7fd")
-	)
 	(wire
 		(pts
 			(xy 43.18 74.93) (xy 25.4 74.93)
@@ -3273,16 +3253,6 @@
 			(type default)
 		)
 		(uuid "15034162-80e5-4c2b-a96c-27cb3d5645ad")
-	)
-	(wire
-		(pts
-			(xy 62.23 132.715) (xy 52.705 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a3b045-f1a1-43bf-9492-5422647fb501")
 	)
 	(wire
 		(pts
@@ -3426,6 +3396,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.085 146.05) (xy 54.61 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9a7acf-2a0a-43d1-9577-48cf2d0e0224")
+	)
+	(wire
+		(pts
 			(xy 72.39 59.69) (xy 58.42 59.69)
 		)
 		(stroke
@@ -3476,16 +3456,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 140.335) (xy 52.705 140.335)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3092c109-009f-4d94-b514-615304bca491")
-	)
-	(wire
-		(pts
 			(xy 77.47 67.31) (xy 83.82 67.31)
 		)
 		(stroke
@@ -3526,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 135.255) (xy 52.705 135.255)
+			(xy 54.61 135.89) (xy 45.085 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3566,7 +3536,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 142.875) (xy 52.705 142.875)
+			(xy 54.61 130.81) (xy 45.085 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1bc154-911b-4842-bebc-7676c86053d1")
+	)
+	(wire
+		(pts
+			(xy 54.61 143.51) (xy 45.085 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3676,6 +3656,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 158.75) (xy 45.085 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b8f18b-60f1-4130-b5d7-a4650bfd4948")
+	)
+	(wire
+		(pts
 			(xy 161.29 140.97) (xy 156.21 140.97)
 		)
 		(stroke
@@ -3743,26 +3733,6 @@
 			(type default)
 		)
 		(uuid "5ec3171e-a44b-4f06-9138-25a9a05646fb")
-	)
-	(wire
-		(pts
-			(xy 62.23 163.195) (xy 52.705 163.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f1b5985-dbc2-40f8-9c62-c795bd69f6ae")
-	)
-	(wire
-		(pts
-			(xy 62.23 165.735) (xy 52.705 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fcd485b-70c2-49b4-afa0-70f378de5547")
 	)
 	(wire
 		(pts
@@ -3876,7 +3846,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 150.495) (xy 52.705 150.495)
+			(xy 54.61 151.13) (xy 45.085 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4056,16 +4026,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 155.575) (xy 52.705 155.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f7492d-9dc0-42c7-81f8-186b09d705ab")
-	)
-	(wire
-		(pts
 			(xy 148.59 85.09) (xy 148.59 99.06)
 		)
 		(stroke
@@ -4146,7 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 127.635) (xy 52.705 127.635)
+			(xy 54.61 128.27) (xy 45.085 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4243,6 +4203,16 @@
 			(type default)
 		)
 		(uuid "9ed85f5a-e9bb-4fd1-99a4-80a4e403d151")
+	)
+	(wire
+		(pts
+			(xy 45.085 138.43) (xy 54.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f14bfd9-aa5c-40f0-bd8e-91bd9a04a604")
 	)
 	(wire
 		(pts
@@ -4506,6 +4476,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 123.19) (xy 45.085 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46751ad-5109-4b29-97c7-9bf5f6f48be3")
+	)
+	(wire
+		(pts
 			(xy 104.14 96.52) (xy 104.14 99.06)
 		)
 		(stroke
@@ -4573,6 +4553,16 @@
 			(type default)
 		)
 		(uuid "ce15c7dd-8ec3-4c1b-a968-407cb8e82314")
+	)
+	(wire
+		(pts
+			(xy 54.61 161.29) (xy 45.085 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce81af5f-2801-4fb6-9329-5c37f3b843f6")
 	)
 	(wire
 		(pts
@@ -4906,16 +4896,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 147.955) (xy 52.705 147.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff87aecf-c6bf-48be-9cb0-765c38366967")
-	)
-	(wire
-		(pts
 			(xy 247.65 151.13) (xy 247.65 148.59)
 		)
 		(stroke
@@ -4935,7 +4915,7 @@
 		(uuid "034b428d-2d5e-481a-9738-7b9f79954770")
 	)
 	(label "PDM_CLK1"
-		(at 62.23 150.495 0)
+		(at 54.61 146.05 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5045,7 +5025,7 @@
 		(uuid "276dc908-1f46-446a-b1f4-1551c45a3f23")
 	)
 	(label "PDM_DAT"
-		(at 62.23 140.335 0)
+		(at 54.61 135.89 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5145,7 +5125,7 @@
 		(uuid "5a622ab2-face-4ee3-a12b-05618d84815e")
 	)
 	(label "TP_1"
-		(at 62.23 163.195 0)
+		(at 54.61 158.75 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5205,7 +5185,7 @@
 		(uuid "744772cc-b84a-4a64-8e49-7f0f595b307e")
 	)
 	(label "HPL_1"
-		(at 62.23 127.635 0)
+		(at 54.61 123.19 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5225,7 +5205,7 @@
 		(uuid "7abf7b2f-8f54-41b0-8815-d0131b636333")
 	)
 	(label "HPR_1"
-		(at 62.23 142.875 0)
+		(at 54.61 138.43 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5255,7 +5235,7 @@
 		(uuid "89a0041a-d7e6-4811-af5a-80c59997ec40")
 	)
 	(label "PDM_DAT1"
-		(at 62.23 155.575 0)
+		(at 54.61 151.13 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5295,7 +5275,7 @@
 		(uuid "921b699a-eb59-4336-8e77-487328ab4010")
 	)
 	(label "GND_SENS"
-		(at 62.23 132.715 0)
+		(at 54.61 128.27 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5325,7 +5305,7 @@
 		(uuid "a2092443-f42c-46f2-9ca1-49bf734da7dc")
 	)
 	(label "GND_SENS"
-		(at 62.23 147.955 0)
+		(at 54.61 143.51 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5425,7 +5405,7 @@
 		(uuid "d07cbe70-6825-4331-a574-c7758eeb50e7")
 	)
 	(label "TP_2"
-		(at 62.23 165.735 0)
+		(at 54.61 161.29 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5475,7 +5455,7 @@
 		(uuid "f6ee6e4f-f9fc-4784-8dac-ec4dfef754b8")
 	)
 	(label "PDM_CLK"
-		(at 62.23 135.255 0)
+		(at 54.61 130.81 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -7629,7 +7609,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.705 122.555 90)
+		(at 45.085 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7637,7 +7617,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000592fa379")
 		(property "Reference" "#PWR013"
-			(at 59.055 122.555 0)
+			(at 51.435 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +7626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.912 122.555 90)
+			(at 50.292 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +7634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.705 122.555 0)
+			(at 45.085 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.705 122.555 0)
+			(at 45.085 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +7650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.705 122.555 0)
+			(at 45.085 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,68 +8467,6 @@
 			(project ""
 				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 52.705 125.095 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005abac48f")
-		(property "Reference" "#PWR046"
-			(at 48.895 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 58.674 124.841 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.705 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.705 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.705 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b48db208-44f9-465f-927b-e9e1d2b9584b")
-		)
-		(instances
-			(project ""
-				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10179,8 +10097,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 45.085 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b7ba241-6f3d-466c-b58c-eed23a39d1a9")
+		(property "Reference" "#PWR05"
+			(at 51.435 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.165 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a57d23bb-fbe8-4aaa-9d03-251a52c976b1")
+		)
+		(instances
+			(project "auren-shield"
+				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 52.705 168.275 270)
+		(at 45.085 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10188,7 +10168,7 @@
 		(dnp no)
 		(uuid "153a07ab-6c39-4643-b9b7-1c37961ad114")
 		(property "Reference" "#PWR03"
-			(at 48.895 168.275 0)
+			(at 41.275 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10177,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 58.674 168.021 90)
+			(at 51.054 166.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.705 168.275 0)
+			(at 45.085 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,7 +10193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.705 168.275 0)
+			(at 45.085 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +10201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.705 168.275 0)
+			(at 45.085 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,34 +10221,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x20")
-		(at 47.625 145.415 0)
-		(mirror y)
+		(lib_id "power:+3.3V")
+		(at 45.085 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f349fbf-5e41-4a3e-b87d-e41d2c420d64")
-		(property "Reference" "J3"
-			(at 47.625 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HDMI A"
-			(at 47.625 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 47.625 145.415 0)
+		(uuid "2c35bc0e-ba65-420f-ae93-3896ad5c0f85")
+		(property "Reference" "#PWR022"
+			(at 41.275 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10276,8 +10238,273 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 47.625 145.415 0)
+		(property "Value" "+3.3V"
+			(at 51.054 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fccdba14-adde-4d05-8182-c6bf0df4f777")
+		)
+		(instances
+			(project "auren-shield"
+				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.085 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44d1da0a-ecb5-486d-aafd-23088104dc50")
+		(property "Reference" "#PWR021"
+			(at 51.435 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.165 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47a4ebc8-8872-48d1-ab44-e3d07f60e934")
+		)
+		(instances
+			(project "auren-shield"
+				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.085 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7858cdef-4902-4e89-86d9-a0a4ae96a064")
+		(property "Reference" "#PWR018"
+			(at 51.435 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.165 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcf11d9d-826a-4a11-8f46-e27a387f72fc")
+		)
+		(instances
+			(project "auren-shield"
+				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.085 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84b53739-414c-4a25-85c3-7b90763905e7")
+		(property "Reference" "#PWR014"
+			(at 51.435 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.165 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feb65f91-6e32-4de3-b935-95c2613720ae")
+		)
+		(instances
+			(project "auren-shield"
+				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x20")
+		(at 40.005 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f349fbf-5e41-4a3e-b87d-e41d2c420d64")
+		(property "Reference" "J3"
+			(at 39.878 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HDMI_A_Molex_208658-1001"
+			(at 36.576 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Video:HDMI_A_Molex_208658-1001_Horizontal"
+			(at 40.005 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2086581001?display=pdf"
+			(at 40.005 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10286,7 +10513,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 47.625 145.415 0)
+			(at 40.005 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10578,7 @@
 		(pin "19"
 			(uuid "2fe21180-acb7-4d50-acb8-ba7ecf8d7cf2")
 		)
-		(pin "20"
+		(pin "SH"
 			(uuid "30d74b56-738d-467b-a4ed-703cd2861cf2")
 		)
 		(instances
@@ -10365,15 +10592,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.705 170.815 90)
+		(at 45.085 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa2090bf-374b-498e-ae85-efadf5f3d365")
-		(property "Reference" "#PWR02"
-			(at 59.055 170.815 0)
+		(uuid "92122094-c3e8-4491-9c61-6d95f52bec3e")
+		(property "Reference" "#PWR04"
+			(at 51.435 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +10609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.785 170.815 90)
+			(at 50.165 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,7 +10617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.705 170.815 0)
+			(at 45.085 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,7 +10625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.705 170.815 0)
+			(at 45.085 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10406,7 +10633,131 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.705 170.815 0)
+			(at 45.085 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96eabc12-eecd-4f8f-94dd-da916a54099e")
+		)
+		(instances
+			(project "auren-shield"
+				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.085 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "935fa13b-b0bb-4e2b-987f-5389ac17f45a")
+		(property "Reference" "#PWR015"
+			(at 51.435 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.165 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37630974-b8c6-4bc8-8f2c-00955af0f77d")
+		)
+		(instances
+			(project "auren-shield"
+				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.085 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa2090bf-374b-498e-ae85-efadf5f3d365")
+		(property "Reference" "#PWR02"
+			(at 51.435 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.165 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,68 +10771,6 @@
 			(project "auren-shield"
 				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.705 158.115 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e55393c4-0ae9-4bc0-91b6-8d6760d24c3b")
-		(property "Reference" "#PWR01"
-			(at 59.055 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.785 158.115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.705 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.705 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.705 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2cfde256-e03d-4d5f-b3a7-fb4a7e16bbc4")
-		)
-		(instances
-			(project "auren-shield"
-				(path "/2aef2ae4-0dbd-424b-8fd8-1bf240a2e15b"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
