@@ -124,6 +124,377 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -1493,262 +1864,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "auren-shield:Tympan_SJ-3523-SMT-TR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "Tympan_SJ-3523-SMT-TR"
-				(at 6.35 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Tympan_SJ-3523-SMT-TR_0_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Tympan_SJ-3523-SMT-TR_1_1"
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 5.08)
-					(name "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 5.08)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 5.08)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "auren-shield:Tympan_SJ-3524-SMT-TR-PI"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -10.16 11.43 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "Tympan_SJ-3524-SMT-TR-PI"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Tympan_SJ-3524-SMT-TR-PI_0_1"
-				(rectangle
-					(start -10.16 6.35)
-					(end 0 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Tympan_SJ-3524-SMT-TR-PI_1_1"
-				(pin input line
-					(at -15.24 5.08 0)
-					(length 5.08)
-					(name "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "DET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "auren-shield:Tympan_TLV320AIC3206IRSBT"
 			(pin_names
 				(offset 1.016)
@@ -2957,12 +3072,6 @@
 		(uuid "08b55bc6-87e7-487a-9e67-8163a7c8b838")
 	)
 	(junction
-		(at 162.56 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24affc67-a045-41e9-81cb-68ba3d800316")
-	)
-	(junction
 		(at 115.57 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3005,22 +3114,28 @@
 		(uuid "514139e1-0f22-486e-817f-20c17b907680")
 	)
 	(junction
+		(at 162.56 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e5a4304-6323-41dc-a70e-d50082b7ae10")
+	)
+	(junction
 		(at 111.76 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6102a371-8b4d-4e63-8785-23faa1059518")
 	)
 	(junction
+		(at 158.75 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657cd6a2-8630-4587-88d6-553a2a851ab8")
+	)
+	(junction
 		(at 109.22 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e9cf551-7f01-4bd2-95df-15854e80927a")
-	)
-	(junction
-		(at 158.75 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fd0cf69-90ed-4c07-9a8a-ba4a734fb415")
 	)
 	(junction
 		(at 162.56 99.06)
@@ -3133,6 +3248,16 @@
 			(type default)
 		)
 		(uuid "001e1253-741b-4fa6-9605-99964dbd8420")
+	)
+	(wire
+		(pts
+			(xy 179.07 80.01) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009f62bb-a472-4833-a449-045376ef69ab")
 	)
 	(wire
 		(pts
@@ -3366,6 +3491,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 82.55) (xy 167.64 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2424aba0-f230-4f87-8e03-274bc41f4c7c")
+	)
+	(wire
+		(pts
 			(xy 110.49 43.18) (xy 113.03 43.18)
 		)
 		(stroke
@@ -3423,16 +3558,6 @@
 			(type default)
 		)
 		(uuid "2c5bd578-b4fe-470c-9e82-a1b69967c104")
-	)
-	(wire
-		(pts
-			(xy 162.56 82.55) (xy 179.07 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e797c80-8cc7-4014-b21e-bdc644f8cc56")
 	)
 	(wire
 		(pts
@@ -3513,6 +3638,16 @@
 			(type default)
 		)
 		(uuid "362f4d29-f561-4011-9ce4-eb59747af62b")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.105) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387cee5a-4777-495c-8686-3c686d6f4fc7")
 	)
 	(wire
 		(pts
@@ -4296,6 +4431,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 78.105) (xy 158.75 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab858ef-cdcf-4148-ab15-63a286e3198d")
+	)
+	(wire
+		(pts
 			(xy 161.29 139.7) (xy 161.29 140.97)
 		)
 		(stroke
@@ -4556,6 +4701,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 80.01) (xy 162.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbd271b-cd43-4d61-9a92-7bf6c6e45f0e")
+	)
+	(wire
+		(pts
 			(xy 177.8 43.18) (xy 177.8 45.72)
 		)
 		(stroke
@@ -4593,6 +4748,16 @@
 			(type default)
 		)
 		(uuid "d2f13cde-8792-47e7-99a9-0f90cebb3010")
+	)
+	(wire
+		(pts
+			(xy 179.07 82.55) (xy 167.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6627aa0-5931-4813-9269-f827a0cde256")
 	)
 	(wire
 		(pts
@@ -4816,16 +4981,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 179.07 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9fa49b0-b64b-4d7d-b7e5-2582d132f541")
-	)
-	(wire
-		(pts
 			(xy 72.39 54.61) (xy 58.42 54.61)
 		)
 		(stroke
@@ -5025,7 +5180,7 @@
 		(uuid "24ce5ce2-9504-424d-9068-9439233d6312")
 	)
 	(label "HPR_1"
-		(at 176.53 82.55 180)
+		(at 179.07 80.01 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5415,7 +5570,7 @@
 		(uuid "cd1c00c3-1134-49d9-bf36-aba6f0b58a77")
 	)
 	(label "HPL_1"
-		(at 176.53 80.01 180)
+		(at 179.07 82.55 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -7967,7 +8122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 170.18 134.62 0)
 			(effects
 				(font
@@ -9311,8 +9466,8 @@
 		)
 	)
 	(symbol
-		(lib_id "auren-shield:Tympan_SJ-3524-SMT-TR-PI")
-		(at 208.28 59.69 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 198.12 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9320,7 +9475,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dbcc677")
 		(property "Reference" "J2"
-			(at 208.9912 56.9468 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9328,8 +9483,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Tympan_SJ-3524-SMT-TR-PI"
-			(at 208.9912 59.6392 0)
+		(property "Value" "MIC In"
+			(at 200.66 57.912 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9337,26 +9492,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tympan:SJ-3524-SMT-TR"
-			(at 224.282 62.738 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 198.12 57.15 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 208.28 59.69 0)
+		(property "Datasheet" "~"
+			(at 198.12 57.15 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 208.28 59.69 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9386,8 +9541,8 @@
 		)
 	)
 	(symbol
-		(lib_id "auren-shield:Tympan_SJ-3523-SMT-TR")
-		(at 187.96 82.55 0)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 184.15 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9395,7 +9550,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dbcf104")
 		(property "Reference" "J1"
-			(at 193.7512 81.0768 0)
+			(at 186.182 80.772 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9403,8 +9558,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Tympan_SJ-3523-SMT-TR"
-			(at 193.7512 83.7692 0)
+		(property "Value" "Headphone Out"
+			(at 186.182 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9412,25 +9567,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tympan:SJ-3523-SMT-TR"
-			(at 213.614 80.264 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 184.15 82.55 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 187.96 82.55 0)
+		(property "Datasheet" "~"
+			(at 184.15 82.55 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 187.96 82.55 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
