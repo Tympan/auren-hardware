@@ -1568,7 +1568,7 @@
 			(uuid "5fb12de3-857c-4237-a145-8c1d01f920c9")
 		)
 		(embedded_fonts no)
-		(model "Housings_DFN_QFN.3dshapes/UQFN-40-1EP_5x5mm_Pitch0.4mm.wrl"
+		(model "/Users/biomurph/Library/CloudStorage/Dropbox/KiCad/3D_Models/Package_DFN_QFN.3dshapes/UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
