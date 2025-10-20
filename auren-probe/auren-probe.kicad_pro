@@ -513,7 +513,7 @@
       "plot": "auren-probe-production/",
       "pos_files": "auren-probe-production/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "auren-probe.step",
       "svg": "",
       "vrml": ""
     },

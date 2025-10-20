@@ -429,6 +429,17 @@
 			(uuid "873acf59-7acb-46a6-8108-4bd9ba9fb88e")
 		)
 		(embedded_fonts no)
+		(model "/Users/joelmurphy/Dropbox/KiCad/3D_Models/IM72D128V01XTMA1--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz -0.67 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -647,7 +658,7 @@
 			)
 		)
 		(property "Value" "IM72D128"
-			(at -1.18 2.5 270)
+			(at -1.18 2.5 90)
 			(layer "F.Fab")
 			(uuid "68eef100-1f8b-4cbf-abfb-ff6e2b10b4de")
 			(effects
@@ -658,7 +669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "094ba0ab-b5ea-431f-bd78-44d8456cef06")
@@ -670,7 +681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd474ec5-1dc8-4e78-b0cf-9f2de0e7f7c8")
@@ -696,7 +707,7 @@
 		(path "/af1a6a43-519b-4308-8680-daafa67315f1")
 		(sheetname "/")
 		(sheetfile "auren-probe.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
 			(start -2.68 1.5)
 			(end -2.68 -1.5)
@@ -909,6 +920,17 @@
 			(uuid "9daf1132-1d14-4d07-b4d5-4ba0e035c939")
 		)
 		(embedded_fonts no)
+		(model "/Users/joelmurphy/Dropbox/KiCad/3D_Models/IM72D128V01XTMA1--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz -0.67 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -1181,7 +1203,7 @@
 			)
 		)
 		(property "Value" "IM72D128"
-			(at -1.18 2.5 270)
+			(at -1.18 2.5 90)
 			(layer "F.Fab")
 			(uuid "ef1e5e6b-3e45-48b9-aa1b-0b235f7ff139")
 			(effects
@@ -1192,7 +1214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8147309f-ce48-4a6e-8588-82e403582bf4")
@@ -1204,7 +1226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "871811e0-4378-4673-b6f4-92d3121151be")
@@ -1443,6 +1465,17 @@
 			(uuid "4ad193ff-814e-4877-9bfd-214d8eff8786")
 		)
 		(embedded_fonts no)
+		(model "/Users/joelmurphy/Dropbox/KiCad/3D_Models/IM72D128V01XTMA1--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz -0.67 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -2588,6 +2621,17 @@
 			(uuid "62a703b5-71f8-4318-be09-4e6a922e4d52")
 		)
 		(embedded_fonts no)
+		(model "/Users/joelmurphy/Dropbox/KiCad/3D_Models/IM72D128V01XTMA1--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz -0.67 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
@@ -4418,15 +4462,15 @@
 			(uuid "9d586c52-659b-46c5-8aab-7fe617a39f18")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Video.3dshapes/HDMI_Micro-D_Molex_46765-1x01.wrl"
+		(model "/Users/joelmurphy/Dropbox/KiCad/3D_Models/172601443-19-0467651001/0467651001.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -5 -3.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -8765,7 +8809,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "100.00 mils"
+		(gr_text "2.54 mm"
 			(at 110.65919 46.352 0)
 			(layer "User.4")
 			(uuid "45dbe32d-ad02-434f-85c3-b422d265c874")
@@ -8802,7 +8846,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "875.59 mils"
+		(gr_text "22.24 mm"
 			(at 80.096 55.63 90)
 			(layer "User.4")
 			(uuid "9441b5c8-f0e7-4c77-b1d7-cf4d230abff3")
@@ -8839,7 +8883,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "962.00 mils"
+		(gr_text "24.43 mm"
 			(at 99.7118 68.6278 0)
 			(layer "User.4")
 			(uuid "c036d3be-2a6c-4c06-a347-99514ceba984")
@@ -8876,7 +8920,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "396.00 mils"
+		(gr_text "10.06 mm"
 			(at 106.899989 40.1798 0)
 			(layer "User.4")
 			(uuid "c18443b8-2c04-4b58-b239-56c7d0acb6f6")
@@ -8913,7 +8957,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "612.00 mils"
+		(gr_text "15.54 mm"
 			(at 104.15679 37.208 0)
 			(layer "User.4")
 			(uuid "d38227e1-8677-4581-8f24-e9f76ee0000e")
@@ -8950,7 +8994,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "262.00 mils"
+		(gr_text "6.65 mm"
 			(at 108.60179 43.177 0)
 			(layer "User.4")
 			(uuid "f0e137e4-8f7b-4048-b902-589937ef5cbc")
